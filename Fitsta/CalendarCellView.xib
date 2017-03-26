@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarCell" customModule="Fitsta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="52" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xEn-DY-8Wj">
+                    <rect key="frame" x="0.0" y="0.0" width="52" height="60"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.28627450980000002" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJ9-go-uJy">
+                    <rect key="frame" x="35" y="2" width="14" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="14" id="HsK-Gs-bMI"/>
+                        <constraint firstAttribute="height" constant="14" id="O6L-od-kfz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Weights-Tick-Blue" translatesAutoresizingMaskIntoConstraints="NO" id="9X5-On-3Qb">
+                    <rect key="frame" x="5" y="19" width="44" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="MBc-hR-5UQ"/>
+                        <constraint firstAttribute="width" constant="44" id="Nhj-dB-0ht"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9X5-On-3Qb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="7cv-Pi-AzL"/>
+                <constraint firstAttribute="bottom" secondItem="xEn-DY-8Wj" secondAttribute="bottom" id="9vO-yi-Tm5"/>
+                <constraint firstItem="QJ9-go-uJy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="Onc-Uq-1Ci"/>
+                <constraint firstAttribute="trailing" secondItem="QJ9-go-uJy" secondAttribute="trailing" constant="3" id="QzM-tG-xIL"/>
+                <constraint firstAttribute="trailing" secondItem="xEn-DY-8Wj" secondAttribute="trailing" id="kDp-N6-K67"/>
+                <constraint firstItem="9X5-On-3Qb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="1" id="mV3-1b-GNZ"/>
+                <constraint firstItem="xEn-DY-8Wj" firstAttribute="top" secondItem="QJ9-go-uJy" secondAttribute="bottom" constant="-16" id="p2u-tL-Rnb"/>
+                <constraint firstItem="xEn-DY-8Wj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zIN-Rr-3Dt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dayLabel" destination="QJ9-go-uJy" id="PgU-Yu-ysa"/>
+                <outlet property="selectedView" destination="xEn-DY-8Wj" id="X9C-iR-H1d"/>
+                <outlet property="workoutDone" destination="9X5-On-3Qb" id="ded-YB-DR7"/>
+            </connections>
+            <point key="canvasLocation" x="-38" y="-213"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Weights-Tick-Blue" width="25" height="25"/>
+    </resources>
+</document>

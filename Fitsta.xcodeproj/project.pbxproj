@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6848471961BDFEDC8CDF7378 /* Pods_Fitsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E60B5B43C3A45C4A677791 /* Pods_Fitsta.framework */; };
+		8825B8BA1DFDF75400FDB463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8B91DFDF75400FDB463 /* AppDelegate.swift */; };
+		8825B8C21DFDF75400FDB463 /* Fitsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8C01DFDF75400FDB463 /* Fitsta.xcdatamodeld */; };
+		8825B8C41DFDF75400FDB463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8825B8C31DFDF75400FDB463 /* Assets.xcassets */; };
+		8825B8D61DFDF7C400FDB463 /* Anton.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8825B8D51DFDF7C400FDB463 /* Anton.ttf */; };
+		8825B8D81DFDF7FC00FDB463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825B8D71DFDF7FC00FDB463 /* Main.storyboard */; };
+		8825B8E11DFDF8BB00FDB463 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8DB1DFDF8BB00FDB463 /* CalendarCell.swift */; };
+		8825B8E21DFDF8BB00FDB463 /* CalendarCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8825B8DC1DFDF8BB00FDB463 /* CalendarCellView.xib */; };
+		8825B8E31DFDF8BB00FDB463 /* CalendarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8DD1DFDF8BB00FDB463 /* CalendarExtension.swift */; };
+		8825B8E41DFDF8BB00FDB463 /* CalendarHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8DE1DFDF8BB00FDB463 /* CalendarHeaderLabel.swift */; };
+		8825B8E51DFDF8BB00FDB463 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8DF1DFDF8BB00FDB463 /* CalendarHeaderView.swift */; };
+		8825B8E61DFDF8BB00FDB463 /* CalendarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8825B8E01DFDF8BB00FDB463 /* CalendarHeaderView.xib */; };
+		8825B8EB1DFDF8DA00FDB463 /* HomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8E81DFDF8DA00FDB463 /* HomeExtension.swift */; };
+		8825B8EC1DFDF8DA00FDB463 /* TypographyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8E91DFDF8DA00FDB463 /* TypographyExtension.swift */; };
+		8825B8ED1DFDF8DA00FDB463 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8EA1DFDF8DA00FDB463 /* ViewExtension.swift */; };
+		8825B8F01DFDF8F100FDB463 /* DeviceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8EF1DFDF8F100FDB463 /* DeviceDetector.swift */; };
+		8825B8F21DFDF94100FDB463 /* WorkoutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8F11DFDF94100FDB463 /* WorkoutTableCell.swift */; };
+		8825B8F51DFDF96E00FDB463 /* WalkthroughPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8F41DFDF96E00FDB463 /* WalkthroughPageController.swift */; };
+		8825B8F71DFDF98C00FDB463 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8F61DFDF98C00FDB463 /* DataModel.swift */; };
+		8825B8FD1DFDF9C000FDB463 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8F81DFDF9C000FDB463 /* HomeController.swift */; };
+		8825B8FE1DFDF9C000FDB463 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8F91DFDF9C000FDB463 /* NavigationController.swift */; };
+		8825B8FF1DFDF9C000FDB463 /* NewWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8FA1DFDF9C000FDB463 /* NewWorkoutController.swift */; };
+		8825B9001DFDF9C000FDB463 /* SavedWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8FB1DFDF9C000FDB463 /* SavedWorkoutController.swift */; };
+		8825B9011DFDF9C000FDB463 /* StatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825B8FC1DFDF9C000FDB463 /* StatsController.swift */; };
+		887DE6471DFEE1800027DEFE /* SavedWorkoutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887DE6461DFEE1800027DEFE /* SavedWorkoutTableCell.swift */; };
+		887DE6491DFF336E0027DEFE /* NewWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887DE6481DFF336E0027DEFE /* NewWorkoutTableViewCell.swift */; };
+		887DE64F1E0175DC0027DEFE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887DE64E1E0175DC0027DEFE /* SettingsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49E60B5B43C3A45C4A677791 /* Pods_Fitsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8825B8B61DFDF75400FDB463 /* Fitsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8825B8B91DFDF75400FDB463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8825B8C11DFDF75400FDB463 /* Fitsta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitsta.xcdatamodel; sourceTree = "<group>"; };
+		8825B8C31DFDF75400FDB463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8825B8C81DFDF75400FDB463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8825B8D51DFDF7C400FDB463 /* Anton.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anton.ttf; sourceTree = "<group>"; };
+		8825B8D71DFDF7FC00FDB463 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8825B8DB1DFDF8BB00FDB463 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		8825B8DC1DFDF8BB00FDB463 /* CalendarCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCellView.xib; sourceTree = "<group>"; };
+		8825B8DD1DFDF8BB00FDB463 /* CalendarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarExtension.swift; sourceTree = "<group>"; };
+		8825B8DE1DFDF8BB00FDB463 /* CalendarHeaderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderLabel.swift; sourceTree = "<group>"; };
+		8825B8DF1DFDF8BB00FDB463 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		8825B8E01DFDF8BB00FDB463 /* CalendarHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarHeaderView.xib; sourceTree = "<group>"; };
+		8825B8E81DFDF8DA00FDB463 /* HomeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeExtension.swift; sourceTree = "<group>"; };
+		8825B8E91DFDF8DA00FDB463 /* TypographyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypographyExtension.swift; sourceTree = "<group>"; };
+		8825B8EA1DFDF8DA00FDB463 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		8825B8EF1DFDF8F100FDB463 /* DeviceDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetector.swift; sourceTree = "<group>"; };
+		8825B8F11DFDF94100FDB463 /* WorkoutTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableCell.swift; sourceTree = "<group>"; };
+		8825B8F41DFDF96E00FDB463 /* WalkthroughPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughPageController.swift; sourceTree = "<group>"; };
+		8825B8F61DFDF98C00FDB463 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8825B8F81DFDF9C000FDB463 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8825B8F91DFDF9C000FDB463 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		8825B8FA1DFDF9C000FDB463 /* NewWorkoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutController.swift; sourceTree = "<group>"; };
+		8825B8FB1DFDF9C000FDB463 /* SavedWorkoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedWorkoutController.swift; sourceTree = "<group>"; };
+		8825B8FC1DFDF9C000FDB463 /* StatsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsController.swift; sourceTree = "<group>"; };
+		887DE6461DFEE1800027DEFE /* SavedWorkoutTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedWorkoutTableCell.swift; sourceTree = "<group>"; };
+		887DE6481DFF336E0027DEFE /* NewWorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		887DE64E1E0175DC0027DEFE /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		8A3D4CF59BC1008C7BCC99E1 /* Pods-Fitsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsta/Pods-Fitsta.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4AE74F4FED50516877D26C /* Pods-Fitsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsta/Pods-Fitsta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8825B8B31DFDF75400FDB463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6848471961BDFEDC8CDF7378 /* Pods_Fitsta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F053DF1EEB92802EA75D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E60B5B43C3A45C4A677791 /* Pods_Fitsta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8825B8AD1DFDF75400FDB463 = {
+			isa = PBXGroup;
+			children = (
+				8825B8B81DFDF75400FDB463 /* Fitsta */,
+				8825B8B71DFDF75400FDB463 /* Products */,
+				96E3004D163DF82F11ACB04A /* Pods */,
+				18F053DF1EEB92802EA75D40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8825B8B71DFDF75400FDB463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8B61DFDF75400FDB463 /* Fitsta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8825B8B81DFDF75400FDB463 /* Fitsta */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8CE1DFDF77000FDB463 /* Assets */,
+				8825B8D11DFDF78600FDB463 /* Model */,
+				8825B8D21DFDF78B00FDB463 /* View */,
+				8825B8D31DFDF79100FDB463 /* Controller */,
+				8825B8E71DFDF8C500FDB463 /* Extensions */,
+				8825B8EE1DFDF8E100FDB463 /* Utilities */,
+				8825B8D41DFDF7A200FDB463 /* Supporting files */,
+				8825B8D71DFDF7FC00FDB463 /* Main.storyboard */,
+				8825B8C01DFDF75400FDB463 /* Fitsta.xcdatamodeld */,
+			);
+			path = Fitsta;
+			sourceTree = "<group>";
+		};
+		8825B8CE1DFDF77000FDB463 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8D01DFDF77F00FDB463 /* fonts */,
+				8825B8CF1DFDF77900FDB463 /* images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		8825B8CF1DFDF77900FDB463 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8C31DFDF75400FDB463 /* Assets.xcassets */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8825B8D01DFDF77F00FDB463 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8D51DFDF7C400FDB463 /* Anton.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		8825B8D11DFDF78600FDB463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8F61DFDF98C00FDB463 /* DataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8825B8D21DFDF78B00FDB463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8D91DFDF8A100FDB463 /* Calendar */,
+				8825B8DA1DFDF8A700FDB463 /* Table */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8825B8D31DFDF79100FDB463 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8F81DFDF9C000FDB463 /* HomeController.swift */,
+				8825B8F91DFDF9C000FDB463 /* NavigationController.swift */,
+				8825B8FA1DFDF9C000FDB463 /* NewWorkoutController.swift */,
+				8825B8FB1DFDF9C000FDB463 /* SavedWorkoutController.swift */,
+				8825B8FC1DFDF9C000FDB463 /* StatsController.swift */,
+				887DE64E1E0175DC0027DEFE /* SettingsController.swift */,
+				8825B8F31DFDF95000FDB463 /* Walkthrough */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8825B8D41DFDF7A200FDB463 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8B91DFDF75400FDB463 /* AppDelegate.swift */,
+				8825B8C81DFDF75400FDB463 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		8825B8D91DFDF8A100FDB463 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8DB1DFDF8BB00FDB463 /* CalendarCell.swift */,
+				8825B8DC1DFDF8BB00FDB463 /* CalendarCellView.xib */,
+				8825B8DE1DFDF8BB00FDB463 /* CalendarHeaderLabel.swift */,
+				8825B8DF1DFDF8BB00FDB463 /* CalendarHeaderView.swift */,
+				8825B8E01DFDF8BB00FDB463 /* CalendarHeaderView.xib */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		8825B8DA1DFDF8A700FDB463 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8F11DFDF94100FDB463 /* WorkoutTableCell.swift */,
+				887DE6461DFEE1800027DEFE /* SavedWorkoutTableCell.swift */,
+				887DE6481DFF336E0027DEFE /* NewWorkoutTableViewCell.swift */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		8825B8E71DFDF8C500FDB463 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8DD1DFDF8BB00FDB463 /* CalendarExtension.swift */,
+				8825B8E81DFDF8DA00FDB463 /* HomeExtension.swift */,
+				8825B8E91DFDF8DA00FDB463 /* TypographyExtension.swift */,
+				8825B8EA1DFDF8DA00FDB463 /* ViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8825B8EE1DFDF8E100FDB463 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8EF1DFDF8F100FDB463 /* DeviceDetector.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8825B8F31DFDF95000FDB463 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				8825B8F41DFDF96E00FDB463 /* WalkthroughPageController.swift */,
+			);
+			name = Walkthrough;
+			sourceTree = "<group>";
+		};
+		96E3004D163DF82F11ACB04A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A3D4CF59BC1008C7BCC99E1 /* Pods-Fitsta.debug.xcconfig */,
+				CB4AE74F4FED50516877D26C /* Pods-Fitsta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8825B8B51DFDF75400FDB463 /* Fitsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8825B8CB1DFDF75400FDB463 /* Build configuration list for PBXNativeTarget "Fitsta" */;
+			buildPhases = (
+				9BDB419231FC9990A219D70F /* [CP] Check Pods Manifest.lock */,
+				8825B8B21DFDF75400FDB463 /* Sources */,
+				8825B8B31DFDF75400FDB463 /* Frameworks */,
+				8825B8B41DFDF75400FDB463 /* Resources */,
+				48C0F265E82C30E08A025B88 /* [CP] Embed Pods Frameworks */,
+				118ADF07CDB0C8D32631B33F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitsta;
+			productName = Fitsta;
+			productReference = 8825B8B61DFDF75400FDB463 /* Fitsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8825B8AE1DFDF75400FDB463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Man Cave Interactive";
+				TargetAttributes = {
+					8825B8B51DFDF75400FDB463 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8825B8B11DFDF75400FDB463 /* Build configuration list for PBXProject "Fitsta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8825B8AD1DFDF75400FDB463;
+			productRefGroup = 8825B8B71DFDF75400FDB463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8825B8B51DFDF75400FDB463 /* Fitsta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8825B8B41DFDF75400FDB463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8825B8D61DFDF7C400FDB463 /* Anton.ttf in Resources */,
+				8825B8C41DFDF75400FDB463 /* Assets.xcassets in Resources */,
+				8825B8D81DFDF7FC00FDB463 /* Main.storyboard in Resources */,
+				8825B8E21DFDF8BB00FDB463 /* CalendarCellView.xib in Resources */,
+				8825B8E61DFDF8BB00FDB463 /* CalendarHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		118ADF07CDB0C8D32631B33F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitsta/Pods-Fitsta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C0F265E82C30E08A025B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitsta/Pods-Fitsta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDB419231FC9990A219D70F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8825B8B21DFDF75400FDB463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8825B8C21DFDF75400FDB463 /* Fitsta.xcdatamodeld in Sources */,
+				8825B8EC1DFDF8DA00FDB463 /* TypographyExtension.swift in Sources */,
+				8825B8FD1DFDF9C000FDB463 /* HomeController.swift in Sources */,
+				887DE64F1E0175DC0027DEFE /* SettingsController.swift in Sources */,
+				8825B9001DFDF9C000FDB463 /* SavedWorkoutController.swift in Sources */,
+				8825B8E51DFDF8BB00FDB463 /* CalendarHeaderView.swift in Sources */,
+				8825B8ED1DFDF8DA00FDB463 /* ViewExtension.swift in Sources */,
+				8825B8BA1DFDF75400FDB463 /* AppDelegate.swift in Sources */,
+				887DE6471DFEE1800027DEFE /* SavedWorkoutTableCell.swift in Sources */,
+				887DE6491DFF336E0027DEFE /* NewWorkoutTableViewCell.swift in Sources */,
+				8825B9011DFDF9C000FDB463 /* StatsController.swift in Sources */,
+				8825B8EB1DFDF8DA00FDB463 /* HomeExtension.swift in Sources */,
+				8825B8FE1DFDF9C000FDB463 /* NavigationController.swift in Sources */,
+				8825B8F71DFDF98C00FDB463 /* DataModel.swift in Sources */,
+				8825B8E11DFDF8BB00FDB463 /* CalendarCell.swift in Sources */,
+				8825B8E31DFDF8BB00FDB463 /* CalendarExtension.swift in Sources */,
+				8825B8E41DFDF8BB00FDB463 /* CalendarHeaderLabel.swift in Sources */,
+				8825B8F01DFDF8F100FDB463 /* DeviceDetector.swift in Sources */,
+				8825B8F21DFDF94100FDB463 /* WorkoutTableCell.swift in Sources */,
+				8825B8FF1DFDF9C000FDB463 /* NewWorkoutController.swift in Sources */,
+				8825B8F51DFDF96E00FDB463 /* WalkthroughPageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8825B8C91DFDF75400FDB463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8825B8CA1DFDF75400FDB463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8825B8CC1DFDF75400FDB463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3D4CF59BC1008C7BCC99E1 /* Pods-Fitsta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Fitsta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8825B8CD1DFDF75400FDB463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4AE74F4FED50516877D26C /* Pods-Fitsta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Fitsta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8825B8B11DFDF75400FDB463 /* Build configuration list for PBXProject "Fitsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8825B8C91DFDF75400FDB463 /* Debug */,
+				8825B8CA1DFDF75400FDB463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8825B8CB1DFDF75400FDB463 /* Build configuration list for PBXNativeTarget "Fitsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8825B8CC1DFDF75400FDB463 /* Debug */,
+				8825B8CD1DFDF75400FDB463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8825B8C01DFDF75400FDB463 /* Fitsta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8825B8C11DFDF75400FDB463 /* Fitsta.xcdatamodel */,
+			);
+			currentVersion = 8825B8C11DFDF75400FDB463 /* Fitsta.xcdatamodel */;
+			path = Fitsta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8825B8AE1DFDF75400FDB463 /* Project object */;
+}

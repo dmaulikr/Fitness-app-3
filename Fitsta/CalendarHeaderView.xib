@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarHeaderView" customModule="Fitniq" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qe-Kg-Ewg">
+                    <rect key="frame" x="120" y="8" width="136" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Lk2-ec-2tY"/>
+                        <constraint firstAttribute="width" constant="136" id="daF-Qz-spK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
+                    <color key="textColor" red="0.68824040032679745" green="0.68824040032679745" blue="0.68824040032679745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNI-ql-EMb">
+                    <rect key="frame" x="167" y="23" width="42" height="13"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="4Hf-Bd-rY4"/>
+                        <constraint firstAttribute="height" constant="13" id="dkL-Lj-v0w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="9"/>
+                    <color key="textColor" red="0.5710399312443204" green="0.5710399312443204" blue="0.5710399312443204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.054901960780000002" green="0.054901960780000002" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uNI-ql-EMb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EML-7g-Z3R"/>
+                <constraint firstItem="uNI-ql-EMb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="Rg4-2y-AS9"/>
+                <constraint firstItem="7Qe-Kg-Ewg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="U8G-6x-sj8"/>
+                <constraint firstItem="7Qe-Kg-Ewg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="f94-yt-wk2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="monthTitle" destination="7Qe-Kg-Ewg" id="JDJ-m9-09J"/>
+                <outlet property="yearTitle" destination="uNI-ql-EMb" id="6wu-52-95W"/>
+            </connections>
+            <point key="canvasLocation" x="14.5" y="-221.5"/>
+        </view>
+    </objects>
+</document>

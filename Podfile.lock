@@ -1,0 +1,21 @@
+PODS:
+  - BWWalkthrough (2.0.0)
+  - Cosmos (7.0.0)
+  - JTAppleCalendar (6.0.5)
+  - MKUnits (4.0.0)
+
+DEPENDENCIES:
+  - BWWalkthrough
+  - Cosmos (~> 7.0)
+  - JTAppleCalendar (~> 6.0)
+  - MKUnits
+
+SPEC CHECKSUMS:
+  BWWalkthrough: ca4d3c8526486add00bf38e20e9f3e218bda1ade
+  Cosmos: 2c8299147138758f6ebbb247cf1aeed77998bdf9
+  JTAppleCalendar: 7ea3f3e66fcbbb62978a01a58e3a3ae88fdad7cc
+  MKUnits: dc779f47b6335bf30b381a1ce57061dc4cfde0e1
+
+PODFILE CHECKSUM: 05a37844b49e88ca5608d34829f94b076f0f7c79
+
+COCOAPODS: 1.0.1
