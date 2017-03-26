@@ -12,7 +12,7 @@ Fitness app along with calendar for easy tracking.
 
 
 ### How to use
-Download the project, modify the bundle indentifier and fix and code fixes outlined by Xcode
+Download the project, run pod install via Cocoapods modify the bundle indentifier and fix and code fixes outlined by Xcode
 
 
 #### Notes
